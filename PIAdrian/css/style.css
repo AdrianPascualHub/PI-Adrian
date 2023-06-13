@@ -1,0 +1,13 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    color: aliceblue;
+    text-shadow: 0 0 4px yellow;
+}
+.jumbotron{
+    margin-top: 30%;
+    margin-bottom: 15%;
+}
+

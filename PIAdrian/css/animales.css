@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  header {
+    background-color: #ffc27c;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ff9900;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .animal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .animal-item {
+    flex: 0 0 45%;
+    max-width: 45%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border: 1px solid #ff9900;
+    background-color: #222;
+    text-align: center;
+  }
+  .animal-image {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border: 3px solid #ff9900 !important;     
+  }
+  
+  .animal-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff9900;
+  }
+  .animal-description {
+    margin-top: 5px;
+    
+  }
+  .center {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #ff9900;
+  }
+  .zoom {   
+    
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+  }

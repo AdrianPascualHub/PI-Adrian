@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url("../img/749.jpg");
+}
+table{
+    color: white !important; 
+    border-color: orange !important;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    padding: 10%;
+    background-color: aliceblue;
+    max-height: 350px;
+}
+.btn{
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.texto{
+    text-align: center;
+}
+.zoo{
+    width: 500px;
+    height: 200px;
+    padding-bottom: 5px;        
+}
